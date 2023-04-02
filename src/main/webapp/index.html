@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Test your skills</title>
+<style>
+.container
+{
+height: 200px;
+position: relative;
+width:30%;
+border: 1px solid black;
+margin: auto;
+padding: 20px;
+font-size:20px;
+}
+</style>
+
+</head>
+<body>
+<div class="container">
+<h1>Test your Knowledge</h1>
+<form action="QuestionServlet" method="post">
+<table>
+<tr>
+<td>ENTER NAME : </td>
+<td><input type="text" name="user_name" placeholder="name"></td>
+</tr>
+
+<tr>
+<td> SELECT TECHNOLOGY : </td>
+<td>
+<select name ="technology">
+<option value="java">JAVA</option>
+<option value="spring">SPRING</option>
+<!-- <option value="docker_kubernetes">DOCKER and KUBERNETES</option> -->
+</select>
+</td>
+</tr>
+
+<tr>
+<td>
+<br>
+<button style="position: relative; left: 60%;" type="submit">Submit</button>
+<button style="position: relative; left: 70%;" type="reset">Reset</button>
+</td>
+</tr>
+
+</table>
+</form>
+</div>
+</body>
+</html>

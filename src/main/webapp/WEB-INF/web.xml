@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+  
+  <servlet>
+  <servlet-name>question</servlet-name>
+  <servlet-class>com.practice.QuestionServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>question</servlet-name>
+  <url-pattern>/QuestionServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>java</servlet-name>
+  <servlet-class>com.practice.JavaServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>java</servlet-name>
+  <url-pattern>/JavaServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>answer</servlet-name>
+  <servlet-class>com.practice.AnswerServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>answer</servlet-name>
+  <url-pattern>/AnswerServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>spring</servlet-name>
+  <servlet-class>com.practice.SpringServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>spring</servlet-name>
+  <url-pattern>/SpringServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>docker-Kubernetes</servlet-name>
+  <servlet-class>com.practice.DKServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>docker-Kubernetes</servlet-name>
+  <url-pattern>/DKServlet</url-pattern>
+  </servlet-mapping>
+  
+</web-app>
